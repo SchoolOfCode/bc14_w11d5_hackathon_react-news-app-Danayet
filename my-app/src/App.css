@@ -1,0 +1,102 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  margin-bottom: 20px;
+}
+
+.search-container input[type="text"] {
+  width: 300px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.category-filters button {
+  margin-right: 10px;
+  margin-bottom: 25px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.category-filters button:hover {
+  background-color: #42713e;
+}
+
+.category-filters button.active {
+  background-color: #4caf50;
+}
+
+.news-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.news-card {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.566);
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.news-card:hover {
+  background-color: #0e600d;
+  transform: scale(1.05);
+}
+
+.news-card h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.news-card p {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.news-card .source {
+  font-size: 12px;
+  color: #888;
+}
+
+.news-card .publishedAt {
+  font-size: 12px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.load-more-container {
+  margin-top: 20px;
+}
+
+.load-more-container button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.load-more-container button:hover {
+  background-color: #42713e;
+}
